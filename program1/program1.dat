@@ -1,0 +1,1244 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: Razieh Enayatsefat
+ * 
+ *********************************************/
+
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r0-25
+ 
+ SheetConnection element("R025.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E51"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q51");
+
+H from SheetRead(element,"Sheet1!S1:AQ2");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+
+//............................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r0-55
+ 
+ SheetConnection element("R055.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E126"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q126");
+
+H from SheetRead(element,"Sheet1!S1:AQ5");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//...........................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r0-105
+ 
+ SheetConnection element("R0105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E251"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q251");
+
+H from SheetRead(element,"Sheet1!S1:AQ10");
+
+z from SheetRead(element,"Sheet1!T13:AR37");
+*/
+//.............................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r1-25
+ 
+ SheetConnection element("R125.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//.............................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r1-55
+ 
+ SheetConnection element("R155.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r1-105
+ 
+ SheetConnection element("R1105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//..................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r2-25
+ 
+ SheetConnection element("R225.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E71"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q71");
+
+H from SheetRead(element,"Sheet1!S1:BA2");
+
+z from SheetRead(element,"Sheet1!T8:BB42");
+*/
+//.....................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r2-55
+ 
+ SheetConnection element("R255.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E176"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q176");
+
+H from SheetRead(element,"Sheet1!S1:BA5");
+
+z from SheetRead(element,"Sheet1!T8:BB42");
+*/
+//......................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r2-105
+ 
+ SheetConnection element("R2105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E351"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q351");
+
+H from SheetRead(element,"Sheet1!S1:BA10");
+
+z from SheetRead(element,"Sheet1!T13:BB47");
+*/
+//......................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r3-25
+ 
+ SheetConnection element("R325.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E61"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q61");
+
+H from SheetRead(element,"Sheet1!S1:AV2");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//........................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r3-55
+ 
+ SheetConnection element("R355.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E151"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q151");
+
+H from SheetRead(element,"Sheet1!S1:AV5");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//..........................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r3-105
+ 
+ SheetConnection element("R3105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E301"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q301");
+
+H from SheetRead(element,"Sheet1!S1:AV10");
+
+z from SheetRead(element,"Sheet1!T13:AW42");
+*/
+//...........................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r4-25
+ 
+ SheetConnection element("R425.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E51"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q51");
+
+H from SheetRead(element,"Sheet1!S1:AQ2");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//.............................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r4-55
+ 
+ SheetConnection element("R455.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E126"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q126");
+
+H from SheetRead(element,"Sheet1!S1:AQ5");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//.............................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r4-105
+ 
+ SheetConnection element("R4105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E251"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q251");
+
+H from SheetRead(element,"Sheet1!S1:AQ10");
+
+z from SheetRead(element,"Sheet1!T13:AR37");
+*/
+//.............................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r5-25
+ 
+ SheetConnection element("R525.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E51"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q51");
+
+H from SheetRead(element,"Sheet1!S1:AQ2");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//.............................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r5-55
+ 
+ SheetConnection element("R555.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E126"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q126");
+
+H from SheetRead(element,"Sheet1!S1:AQ5");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//.............................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r5-105
+ 
+ SheetConnection element("R5105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E251"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q251");
+
+H from SheetRead(element,"Sheet1!S1:AQ10");
+
+z from SheetRead(element,"Sheet1!T13:AR37");
+*/
+//..............................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r6-25
+ 
+ SheetConnection element("R625.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E61"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q61");
+
+H from SheetRead(element,"Sheet1!S1:AV2");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//..............................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r6-55
+ 
+ SheetConnection element("R655.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E151"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q151");
+
+H from SheetRead(element,"Sheet1!S1:AV5");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//.............................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r6-105
+ 
+ SheetConnection element("R6105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E301"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q301");
+
+H from SheetRead(element,"Sheet1!S1:AV10");
+
+z from SheetRead(element,"Sheet1!T13:AW42");
+*/
+//.............................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r7-25
+ 
+ SheetConnection element("R725.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E51"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q51");
+
+H from SheetRead(element,"Sheet1!S1:AQ2");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//.............................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r7-55
+ 
+ SheetConnection element("R755.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E126"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q126");
+
+H from SheetRead(element,"Sheet1!S1:AQ5");
+
+z from SheetRead(element,"Sheet1!T8:AR32");
+*/
+//............................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 5;
+ 
+ //r7-105
+ 
+ SheetConnection element("R7105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E251"); 
+
+s from SheetRead(element,"Sheet1!L2:L626");
+
+uu from SheetRead(element,"Sheet1!Q2:Q251");
+
+H from SheetRead(element,"Sheet1!S1:AQ10");
+
+z from SheetRead(element,"Sheet1!T13:AR37");
+*/
+//...........................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r8-25
+ 
+ SheetConnection element("R825.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//...........................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r8-55
+ 
+ SheetConnection element("R855.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//..........................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r8-105
+ 
+ SheetConnection element("R8105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//.........................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r9-25
+ 
+ SheetConnection element("R925.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E61"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q61");
+
+H from SheetRead(element,"Sheet1!S1:AV2");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//.........................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r9-55
+ 
+ SheetConnection element("R955.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E151"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q151");
+
+H from SheetRead(element,"Sheet1!S1:AV5");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//........................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r9-105
+ 
+ SheetConnection element("R9105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E301"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q301");
+
+H from SheetRead(element,"Sheet1!S1:AV10");
+
+z from SheetRead(element,"Sheet1!T13:AW42");
+*/
+//........................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r10-25
+ 
+ SheetConnection element("R1025.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//.......................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r10-55
+ 
+ SheetConnection element("R1055.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//......................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r10-105
+ 
+ SheetConnection element("R10105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//......................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r11-25
+ 
+ SheetConnection element("R10105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E81"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q81");
+
+H from SheetRead(element,"Sheet1!S1:BF2");
+
+z from SheetRead(element,"Sheet1!T8:BG47");
+*/
+//.....................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r11-55
+ 
+ SheetConnection element("R1155.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:BF5");
+
+z from SheetRead(element,"Sheet1!T8:BG47");
+*/
+//....................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r11-105
+ 
+ SheetConnection element("R11105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E401"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q401");
+
+H from SheetRead(element,"Sheet1!S1:BF10");
+
+z from SheetRead(element,"Sheet1!T13:BG52");
+*/
+//..................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r12-25
+ 
+ SheetConnection element("R1225.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//....................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r12-55
+ 
+ SheetConnection element("R1255.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//....................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r12-105
+ 
+ SheetConnection element("R12105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//....................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 9;
+ 
+ //r13-25
+ 
+ SheetConnection element("R1325.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E91"); 
+
+s from SheetRead(element,"Sheet1!L2:L2026");
+
+uu from SheetRead(element,"Sheet1!Q2:Q91");
+
+H from SheetRead(element,"Sheet1!S1:BK2");
+
+z from SheetRead(element,"Sheet1!T8:BL52");
+*/
+//...................................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 9;
+ 
+ //r13-55
+ 
+ SheetConnection element("R1355.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E226"); 
+
+s from SheetRead(element,"Sheet1!L2:L2026");
+
+uu from SheetRead(element,"Sheet1!Q2:Q226");
+
+H from SheetRead(element,"Sheet1!S1:BK5");
+
+z from SheetRead(element,"Sheet1!T8:BL52");
+*/
+//..................................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 9;
+ 
+ //r13-105
+ 
+ SheetConnection element("R13105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E451"); 
+
+s from SheetRead(element,"Sheet1!L2:L2026");
+
+uu from SheetRead(element,"Sheet1!Q2:Q451");
+
+H from SheetRead(element,"Sheet1!S1:BK10");
+
+z from SheetRead(element,"Sheet1!T13:BL57");
+*/
+//................................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r14-25
+ 
+ SheetConnection element("R1425.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//.............................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r14-55
+ 
+ SheetConnection element("R1455.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//...........................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r14-105
+ 
+ SheetConnection element("R14105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//.........................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r15-25
+ 
+ SheetConnection element("R1525.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E41"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q41");
+
+H from SheetRead(element,"Sheet1!S1:AL2");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//........................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r15-55
+ 
+ SheetConnection element("R1555.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:AL5");
+
+z from SheetRead(element,"Sheet1!T8:AM27");
+*/
+//.......................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 4;
+ 
+ //r15-105
+ 
+ SheetConnection element("R15105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L401");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:AL10");
+
+z from SheetRead(element,"Sheet1!T13:AM32");
+*/
+//.......................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r16-25
+ 
+ SheetConnection element("R1625.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E81"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q81");
+
+H from SheetRead(element,"Sheet1!S1:BF2");
+
+z from SheetRead(element,"Sheet1!T8:BG47");
+*/
+//......................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r16-55
+ 
+ SheetConnection element("R1655.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E201"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q201");
+
+H from SheetRead(element,"Sheet1!S1:BF5");
+
+z from SheetRead(element,"Sheet1!T8:BG47");
+*/
+//.....................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 8;
+ 
+ //r16-105
+ 
+ SheetConnection element("R16105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E401"); 
+
+s from SheetRead(element,"Sheet1!L2:L1601");
+
+uu from SheetRead(element,"Sheet1!Q2:Q401");
+
+H from SheetRead(element,"Sheet1!S1:BF10");
+
+z from SheetRead(element,"Sheet1!T13:BG52");
+*/
+//....................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r17-25
+ 
+ SheetConnection element("R1725.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E61"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q61");
+
+H from SheetRead(element,"Sheet1!S1:AV2");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//....................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r17-55
+ 
+ SheetConnection element("R1755.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E151"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q151");
+
+H from SheetRead(element,"Sheet1!S1:AV5");
+
+z from SheetRead(element,"Sheet1!T8:AW37");
+*/
+//....................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 6;
+ 
+ //r17-105
+ 
+ SheetConnection element("R17105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E301"); 
+
+s from SheetRead(element,"Sheet1!L2:L901");
+
+uu from SheetRead(element,"Sheet1!Q2:Q301");
+
+H from SheetRead(element,"Sheet1!S1:AV10");
+
+z from SheetRead(element,"Sheet1!T13:AW42");
+*/
+//....................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r18-25
+ 
+ SheetConnection element("R1825.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E71"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q71");
+
+H from SheetRead(element,"Sheet1!S1:BA2");
+
+z from SheetRead(element,"Sheet1!T8:BB42");
+*/
+//.......................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r18-55
+ 
+ SheetConnection element("R1855.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E176"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q176");
+
+H from SheetRead(element,"Sheet1!S1:BA5");
+
+z from SheetRead(element,"Sheet1!T8:BB42");
+*/
+//......................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 7;
+ 
+ //r18-105
+ 
+ SheetConnection element("R18105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E351"); 
+
+s from SheetRead(element,"Sheet1!L2:L1226");
+
+uu from SheetRead(element,"Sheet1!Q2:Q351");
+
+H from SheetRead(element,"Sheet1!S1:BA10");
+
+z from SheetRead(element,"Sheet1!T13:BB47");
+*/
+//....................................................
+/*
+ Nsample = 2;
+ Nlocus = 5;
+ Nstate = 10;
+ 
+ //r19-25
+ 
+ SheetConnection element("R1925.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E101"); 
+
+s from SheetRead(element,"Sheet1!L2:L2501");
+
+uu from SheetRead(element,"Sheet1!Q2:Q101");
+
+H from SheetRead(element,"Sheet1!S1:BP2");
+
+z from SheetRead(element,"Sheet1!T8:BQ57");
+*/
+//.....................................................
+/*
+ Nsample = 5;
+ Nlocus = 5;
+ Nstate = 10;
+ 
+ //r19-55
+ 
+ SheetConnection element("R1955.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E251"); 
+
+s from SheetRead(element,"Sheet1!L2:L2501");
+
+uu from SheetRead(element,"Sheet1!Q2:Q251");
+
+H from SheetRead(element,"Sheet1!S1:BP5");
+
+z from SheetRead(element,"Sheet1!T8:BQ57");
+*/
+//......................................................
+/*
+ Nsample = 10;
+ Nlocus = 5;
+ Nstate = 10;
+ 
+ //r19-105
+ 
+ SheetConnection element("R19105.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E501"); 
+
+s from SheetRead(element,"Sheet1!L2:L2501");
+
+uu from SheetRead(element,"Sheet1!Q2:Q501");
+
+H from SheetRead(element,"Sheet1!S1:BP10");
+
+z from SheetRead(element,"Sheet1!T13:BQ62");
+*/
+/*
+ Nsample = 10;
+ Nlocus = 26;
+ Nstate = 26;
+ 
+
+ SheetConnection element("Real666.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E6761"); 
+
+uu from SheetRead(element,"Sheet1!J2:J6761");
+
+s from SheetRead(element,"Sheet1!P2:P456977");
+
+H from SheetRead(element,"Sheet1!S1:ZR10");
+
+z from SheetRead(element,"Sheet1!S12:ZR687");
+*/
+
+/*
+ Nsample = 10;
+ Nlocus = 26;
+ Nstate = 26;
+
+
+ SheetConnection element("Real1136.xlsx");
+ 
+f from SheetRead(element,"Sheet1!E2:E6761"); 
+
+uu from SheetRead(element,"Sheet1!J2:J6761");
+
+s from SheetRead(element,"Sheet1!P2:P456977");
+
+H from SheetRead(element,"Sheet1!S1:ZR10");
+
+z from SheetRead(element,"Sheet1!S12:ZR687");
+*/
+
+
+ 
